@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>
+        Abol Yosr
+    </title>
+
+</head>
+
+<body>
+    <h1 title="El gamed Fash5">
+        Abol Yosr
+    </h1>
+    <div class="class">
+        Ana Abol Yosr. I am a computer science student at TU Braunschweig. I have 2 brothers and 4 sisters. I currently live in Germany while my family live in Egypt. I am 25 years old and 10 months. My interests are football , computer games , programming and
+        web development. I aim to finish my bachelor degree next <del>Winter</del> <ins>Summer</ins>.
+    </div>
+    <br>
+    <p><a href="#c">Jump to Contact</a></p>
+    <p><a href="#l">Jump to favourite games</a></p>
+
+    <br>
+
+    <img src="img.jpg">
+
+    <br>
+    <p id="c">
+        <a href="mailto:yousry12695@gmail.com"> Send an Email!</a>
+        <br>
+        <br>
+        <a href="https://github.com/AhmedHanno" target="_blank">Visit my Github!</a>
+    </p>
+
+    <p>
+        List of my favourite games
+    </p>
+
+    <ol class="class" id="l">
+        <ol>God of War</ol>
+        <ol>Ghost of Tsushima</ol>
+        <ol>League of Legends</ol>
+        <ol>Valortant</ol>
+        <ol>Total War Warhammer</ol>
+    </ol>
+
+    <h2 class="style" id="demo">LOL Esports</h2>
+
+    <button type="button" onclick="myFunction()">Click Me</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "I love Valorant!";
+            document.getElementById("demo").style.color = "red";
+        }
+    </script>
+
+    <br>
+    <iframe src="https://lolesports.com/" height="300px" width="100%" title="LOLesports"></iframe>
+
+    <h2>Your favourite Game: </h2> <br>
+    <form>
+        <fieldset>
+            <legend>Game:</legend>
+            <input list="game" name="game">
+            <datalist id="game">
+                <option value="Valorant"></option>
+                <option value="League of Legends"></option>
+                <option value="God of War"></option>
+                <option value="Ghost of Tsushima"></option>
+            </datalist>
+            <input type="reset" value="Reset"> <br>
+            <input type="color" name="favcolor" value="favcolor"><br>
+            <label for="birth">Your Birthday: </label>
+            <input type="date" id="birth" value="birth"><br>
+            <label for="e">Enter your E-Mail:</label>
+            <input type="email" id="e" name="email"><br>
+            <label for="file">Choose file:</label>
+            <input type="file" id="file" name="myFile" multiple>
+
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>

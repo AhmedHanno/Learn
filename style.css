@@ -1,0 +1,57 @@
+p {
+    color: whitesmoke;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    border: 1px solid white;
+    padding: 30px;
+    background-color: rgba(46, 49, 49, 1);
+}
+
+a:link,
+a:visited {
+    color: white;
+    background-color: rgba(250, 0, 0, 0.5);
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+a:hover,
+a:active {
+    color: green;
+    background-color: red;
+    text-decoration: none;
+}
+
+ol {
+    color: white;
+}
+
+.class {
+    background-color: black;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.style {
+    font-size: 400%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+form {
+    color: chartreuse;
+}
